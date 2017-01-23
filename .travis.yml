@@ -24,7 +24,7 @@ script:
 
 after_success:
     - firebase list --token "${FIREBASE_API_TOKEN}"
-    - firebase use crossover-app --token "${FIREBASE_API_TOKEN}"
+    - firebase use jekyll-demo-874c8 --token "${FIREBASE_API_TOKEN}"
     - firebase deploy --token "${FIREBASE_API_TOKEN}"
 
 
@@ -36,3 +36,8 @@ env:
 # get Github token from your Travis CI profile page
 # gem install travis
 # travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'
+
+cache:
+  directories:
+    - $(npm config get prefix)/bin/firebase-tools
+    - node_modules
