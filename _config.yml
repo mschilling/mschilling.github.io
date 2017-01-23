@@ -11,7 +11,7 @@ title:            'Its Mike'
 tagline:          'Blog by Michael Schilling'
 # description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 description:      'Developer at Move4Mobile working on Web Platform'
-url:              http://michaelschilling.com
+url:              https://michaelschilling.com
 baseurl:          /
 
 author:
