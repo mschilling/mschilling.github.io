@@ -24,7 +24,7 @@ script:
 
 after_success:
     - firebase list --token "${FIREBASE_API_TOKEN}"
-    - firebase use jekyll-demo-874c8 --token "${FIREBASE_API_TOKEN}"
+    - firebase use michael-schilling --token "${FIREBASE_API_TOKEN}"
     - firebase deploy --token "${FIREBASE_API_TOKEN}"
 
 
