@@ -16,8 +16,8 @@ install:
 
 # script: bundle exec rake site:deploy --quiet
 script: 
-    bundle exec jekyll build
-    ls
+    - bundle exec jekyll build
+    - ls _site/
 
 env:
   global:
