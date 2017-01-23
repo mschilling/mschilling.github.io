@@ -10,7 +10,7 @@ relative_permalinks: false
 title:            'Its Mike'
 tagline:          'Blog by Michael Schilling'
 # description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-description:      'Hi there!'
+description:      'Developer at Move4Mobile working on Web Platform'
 url:              http://michaelschilling.com
 baseurl:          /
 
@@ -21,7 +21,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          0.0.1-SNAPSHOT
+version:          0.0.1
 
 github:
   repo:           https://github.com/mschilling/mschilling.github.io
