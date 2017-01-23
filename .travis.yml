@@ -1,5 +1,8 @@
 language: ruby
 
+before_script:
+- npm install -g firebase-tools
+
 install:
   # Install binary pandoc from Rstudio
   # To use Pandoc, uncomment the following
