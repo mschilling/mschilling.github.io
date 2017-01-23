@@ -21,7 +21,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          0.0.1
+version:          0.0.2-SNAPSHOT
 
 github:
   repo:           https://github.com/mschilling/mschilling.github.io
