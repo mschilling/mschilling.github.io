@@ -8,6 +8,7 @@ install:
 
 script: 
     - bundle exec jekyll build
+    - bundle exec htmlproofer ./_site
 
 after_success:
     - ./deploy.sh
